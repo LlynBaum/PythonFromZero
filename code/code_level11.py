@@ -13,7 +13,7 @@ def go_up():
 
 def main():
 
-    # remember level5, maybe we can make it simple if we can create our own move method.
+    # Do this without using any loops, except while is_not_at_goal() but as little code repetition as possible
 
     while is_not_at_goal():
         if is_no_wall_down():
