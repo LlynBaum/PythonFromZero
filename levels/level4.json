@@ -1,0 +1,7 @@
+{
+  "window": [640, 960],
+  "start": [3, 3],
+  "goal": [3, 18],
+  "walls": [],
+  "collectables": []
+}

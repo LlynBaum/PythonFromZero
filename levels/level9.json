@@ -1,0 +1,6 @@
+{
+  "start": [3, 3],
+  "goal": [10, 10],
+  "walls": [],
+  "collectables": []
+}
