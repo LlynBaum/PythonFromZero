@@ -6,9 +6,15 @@ def go_down():
     while is_no_wall_down():
         move_down()
 
+
 def go_up():
     while is_no_wall_up():
         move_up()
+
+
+def pick_up_coin():
+    # here
+    return
 
 
 def main():
