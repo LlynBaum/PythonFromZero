@@ -2,11 +2,9 @@ from main import move_left, move_right, move_up, move_down, get_position, is_no_
 
 
 # This should be created by the schnuppi
-def go_down():
+def pick_up_coin():
     for i in range(7):
         move_down()
-
-def go_up():
     for i in range(7):
         move_up()
 
@@ -17,10 +15,7 @@ def main():
 
     while is_not_at_goal():
         if is_no_wall_down():
-            go_down()
-            go_up()
+            pick_up_coin()
             move_right()
         else:
             move_right()
-
-    return
