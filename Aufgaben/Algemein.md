@@ -1,6 +1,14 @@
 # Learn Python from Zero
 
-Jede Level hat ein File mit einer Anleitung und Aufgabe für dieses Level. 
+## Ziel
+
+In jedem level geht es darum den Spieler zum "Exit" Schild zu bewegen und auf dem Weg alle Münzen aufzusammeln.
+
+![image](img/overview.png)
+
+## Code
+
+Jedes Level hat ein File mit einer Anleitung und Aufgabe für dieses Level. 
 Dazu hat es ein python file bereit in dem `code` Ortner. Jedes python file sieht ungefähr so aus
 
 ```python
