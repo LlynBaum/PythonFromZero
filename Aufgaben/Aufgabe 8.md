@@ -14,6 +14,13 @@ Wie du in Teil 1 vielleicht gemerkt hast, ist diese Aufgabe gut lösbar mit dem 
 Nun wird noch ein weiteres Element vom Programmieren gezeigt, dass bei dieser Aufgabe nicht notwendig ist, aber bei der
 nächsten sehr nützlich werden kann.
 
+Als erstes, dein Character kann überprüfen, ob eine wand neben ihm ist. Das kannst du mit folgendem code machen:
+
+- `is_no_wall_down()` - ob keine eine Wand unterhalb ist
+- `is_no_wall_up()` - ob keine eine Wand oberhalb ist
+- `is_no_wall_right()` - ob keine eine Wand rechts ist 
+- `is_no_wall_left()` - ob keine eine Wand links ist
+
 ### if-else Bedingung
 
 Mit `if` und `else` lässt sich unterschiedlichen code ausführen, anhand einer Bedingung.
