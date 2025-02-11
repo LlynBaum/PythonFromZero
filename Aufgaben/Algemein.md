@@ -47,5 +47,16 @@ def main():
 In python kann man Kommentare machen. Ein Kommentar ist alles, was nach dem `#` kommt. Ein Kommentar wird vom Program
 nicht ausgeführt. Du kannst also in einem Kommentar alles schreiben.
 
-Wen du irgendwo etwas wie `# hier kommt dein code` siehst, ist das ein Kommentar, der dir zeigen soll das du hier dein Code
-schreiben kannst. Beachte dabei, dass dein Code dann gleich weit nach rechts eingerückt sein muss wie der Kommentar
+Wen du irgendwo etwas wie `# hier kommt dein code` siehst, ist das ein Kommentar, der dir zeigen soll, dass du hier dein Code
+schreiben kannst. Beachte dabei, dass dein Code dann gleich weit nach rechts eingerückt sein muss wie der Kommentar.
+
+## Ein Level Starten
+
+Um ein Level zu starten, kannst du oben rechts auf `Level x` drücken und ein Beliebiges Level das du starten möchtest auswählen.
+Danach einfach auf den Grünen Play Button drücken.
+
+![rider_start_button.png](img/rider_start_button.png)
+
+Wen das Program gestartet ist und du das SPiel siehst kannst du mit der `Leertaste` den Code starten.
+
+Probier es doch einmal aus indem du das Level 0 startest und laufen lässt.
