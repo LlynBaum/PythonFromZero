@@ -41,6 +41,9 @@ class Game:
         self.running = True
         self.grid_size = GRID_SIZE
 
+        # Create a font for displaying think messages.
+        self.font = pygame.font.SysFont("Arial", 24)
+
         # Load images from the "images" folder and scale them to GRID_SIZE x GRID_SIZE.
         current_dir = os.path.dirname(__file__)
         images_dir = os.path.join(current_dir, "images")
@@ -123,6 +126,18 @@ class Game:
 
         # Draw player
         self.screen.blit(self.player_image, self.character_pos)
+
+        think_data = GAME_STATE.get("think_message", None)
+        if think_data:
+            message, expiry = think_data
+            if time.time() < expiry:
+                # Render the text (converted to string)
+                text_surface = self.font.render(str(message), True, (255, 255, 255))
+                # Optionally, you can add a semi-transparent background for readability.
+                text_rect = text_surface.get_rect(center=(screen_width // 2, screen_height // 2))
+                self.screen.blit(text_surface, text_rect)
+            else:
+                GAME_STATE.pop("think_message")
 
         pygame.display.flip()
 
@@ -290,6 +305,15 @@ def is_wall_down():
 
 def is_no_wall_down():
     return not is_wall_down()
+
+def think(value, duration=2):
+    """
+    Displays the given value (string, int, or bool) on the screen for the specified duration (in seconds).
+    The message is centered on the screen.
+    """
+    GAME_STATE['think_message'] = (value, time.time() + duration)
+    time.sleep(duration)
+
 
 
 # --- Main entry point with level number argument ---
