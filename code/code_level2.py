@@ -1,14 +1,8 @@
-from main import move_left, move_right, move_up, move_down, get_position
+from main import move_left, move_right, move_up, move_down
 
 
 def main():
 
-    # Move the player to the exit sign by using two different directions
-    move_down()
-    move_down()
-    move_down()
-    move_right()
-    move_right()
-    move_right()
+    # hier kommt dein code
 
     return
