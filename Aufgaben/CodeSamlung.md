@@ -11,6 +11,14 @@
    - `move_left()` - ein Feld nach links
 </details>
 
+## Bedingungen
+
+<details>
+  <summary>Ist beim "Exit" Schild oder nicht?</summary>
+
+  is_not_at_goal()
+</details>
+
 ## Loops
 
 <details>
