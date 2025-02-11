@@ -11,4 +11,4 @@ in the file [instructor.md](./instructor.md)
 
 ## Studen Code
 
-The branch for the students with all the templates ready to solve are on the `Student` Branch.
+The branch for the students with all the templates ready to solve are on the `Schnuppi` Branch.
