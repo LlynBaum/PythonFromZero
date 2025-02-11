@@ -41,4 +41,18 @@
   ```
 </details>
 
+## Bedingungen
+
+<details>
+  <summary>If Bedingung</summary>
+
+  ```python
+  if bedingung:
+      # code der Ausgeführt wird wen die Bedingung zutrifft
+  else:
+      # code der Ausgeführt wird wen die Bedingung nicht zugetroffen ist
+  ```
+</details>
+
+
 
