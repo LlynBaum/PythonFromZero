@@ -11,14 +11,6 @@
    - `move_left()` - ein Feld nach links
 </details>
 
-## Bedingungen
-
-<details>
-  <summary>Ist beim "Exit" Schild oder nicht?</summary>
-
-  is_not_at_goal()
-</details>
-
 <hr>
 
 <details>
@@ -65,5 +57,31 @@
   ```
 </details>
 
+<hr>
 
+<details>
+  <summary>Ist beim "Exit" Schild oder nicht?</summary>
 
+  is_not_at_goal()
+</details>
+
+## Methoden
+
+<details>
+  <summary>Erstellen</summary>
+
+  ```python
+def name():
+    # hier kommt dein code
+  ```
+</details>
+
+<hr>
+
+<details>
+  <summary>Benutzen</summary>
+
+  ```python
+name()
+  ```
+</details>
