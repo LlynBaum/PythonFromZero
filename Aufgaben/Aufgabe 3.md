@@ -15,12 +15,3 @@ for i in range(n):
     # hier kommt dein code
 ```
 Der Code unterhalb des Kommentars wird `n` mal ausgeführt. Also z.B. um etwas 2-mal auszuführen, schreibst du anstelle von `n` eine 2.
-
-<details>
-  <summary>Code von Aufgabe 1</summary>
-
-   - `move_down()` - ein Feld nach unten
-   - `move_up()` - ein Feld nach oben
-   - `move_right()` - ein Feld nach rechts 
-   - `move_left()` - ein Feld nach links
-</details>
