@@ -17,7 +17,7 @@ from main import move_left, move_right, move_up, move_down, get_position
 
 def main():
 
-    # here kommt dein code
+    # hier kommt dein code
 
     return
 
@@ -36,8 +36,16 @@ from main import move_left, move_right, move_up, move_down, get_position
 
 def main():
 
-    # here kommt dein code
+    # hier kommt dein code
     move_left()
 
     return
 ```
+
+### Kommentare
+
+In python kann man Kommentare machen. Ein Kommentar ist alles, was nach dem `#` kommt. Ein Kommentar wird vom Program
+nicht ausgeführt. Du kannst also in einem Kommentar alles schreiben.
+
+Wen du irgendwo etwas wie `# hier kommt dein code` siehst, ist das ein Kommentar, der dir zeigen soll das du hier dein Code
+schreiben kannst. Beachte dabei, dass dein Code dann gleich weit nach rechts eingerückt sein muss wie der Kommentar
