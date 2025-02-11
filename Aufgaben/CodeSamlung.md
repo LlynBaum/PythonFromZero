@@ -19,6 +19,17 @@
   is_not_at_goal()
 </details>
 
+<hr>
+
+<details>
+  <summary>Wände erkennen</summary>
+
+  - `is_no_wall_down()` - ob keine eine Wand unterhalb ist
+  - `is_no_wall_up()` - ob keine eine Wand oberhalb ist
+  - `is_no_wall_right()` - ob keine eine Wand rechts ist 
+  - `is_no_wall_left()` - ob keine eine Wand links ist
+</details>
+
 ## Loops
 
 <details>
