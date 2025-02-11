@@ -2,31 +2,20 @@ from main import move_left, move_right, move_up, move_down, get_position, is_no_
 
 
 # This should be created by the schnuppi
-def go_down():
+def pick_up_coin():
     while is_no_wall_down():
         move_down()
-
-
-def go_up():
     while is_no_wall_up():
         move_up()
 
 
-def pick_up_coin():
-    # here
-    return
-
-
 def main():
 
-    # Do this by only using while loops and also don't repeat code to go down and up, even if they are different lengths
+    # Do this without using any loops, except while is_not_at_goal() but as little code repetition as possible
 
     while is_not_at_goal():
         if is_no_wall_down():
-            go_down()
-            go_up()
+            pick_up_coin()
             move_right()
         else:
             move_right()
-
-    return
