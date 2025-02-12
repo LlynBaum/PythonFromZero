@@ -15,7 +15,20 @@ Danach einfach auf den Grünen Play Button drücken.
 
 Wen das Program gestartet ist und du das SPiel siehst kannst du mit der `Leertaste` den Code starten.
 
-Probier es doch einmal aus indem du das Level 0 startest und laufen lässt.
+Probier es doch einmal aus, indem du das Level 0 startest und laufen lässt.
+
+## Die Konsole
+
+Die Konsole befindet sich unten und sollte sich automatisch öffnen beim Starten des programs (ansonsten unbedingt fragen).
+Die Konsole sieht etwa so aus:
+
+![console.png](img/console.png)
+
+In der Konsole werden Informationen angezeigt. Viel davon kannst du Ignorieren, für dich ist nur Interessant was mit `[Game]`
+anfängt. Diese geben dir Informationen über das Spiel, wie:
+
+1. Ob du eine Münze eingesammelt hast
+2. Wen du in eine Wand gelaufen bist.
 
 ## Code
 
