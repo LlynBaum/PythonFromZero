@@ -1,6 +1,6 @@
 # Code Sammlung
 
-## Character Bewegung
+## Character Fähigkeiten
 
 <details>
   <summary>Character Bewegen</summary>
@@ -20,6 +20,17 @@
   - `is_no_wall_up()` - ob keine eine Wand oberhalb ist
   - `is_no_wall_right()` - ob keine eine Wand rechts ist 
   - `is_no_wall_left()` - ob keine eine Wand links ist
+</details>
+
+<hr>
+
+<details>
+  <summary>Think</summary>
+
+  ```python
+think("hi") # Text string
+think(1) # Zahl int
+  ```
 </details>
 
 ## Loops
