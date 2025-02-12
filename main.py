@@ -151,13 +151,13 @@ class Game:
                 if char_rect.colliderect(collect_rect):
                     self.collected[i] = True
                     self.score += 1
-                    print(f"Collected item {i + 1}! Score: {self.score}")
+                    print(f"[Game] Münze {i + 1} eingesammelt! Score: {self.score}")
 
         # Check if reached goal
         if self.goal:
             goal_rect = pygame.Rect(self.goal[0], self.goal[1], self.grid_size, self.grid_size)
             if char_rect.colliderect(goal_rect):
-                print("Goal reached!")
+                print("[Game] Ziel erreicht!")
                 self.running = False
 
     def game_loop(self):
@@ -195,7 +195,7 @@ class Game:
             self.character_pos[1] = new_y
             GAME_STATE['character_pos'] = self.character_pos
         else:
-            print("Collision with a wall!")
+            print("[Game] In die Wand gelaufen!")
 
 
 # --- Exposed API functions (student-facing) ---
