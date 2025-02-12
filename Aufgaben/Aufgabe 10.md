@@ -22,7 +22,11 @@ Die Methode kannst du dann wie folgt verwenden:
 name()
 ```
 
+**Hinweis:** In zukunft wen du eine eigene Methode erstellst, darfst du diese Kopieren und in neuen Aufgaben verwenden,
+wen du willst. Das ist auch das Ziel von Methoden, Code wieder verwenden zu können :)
+
 ## Aufgabe
 
 Bewege den Character zum "Exit" Schild und mache dafür eine "move_diagonal" methode, die den Character diagonal bewegt 
 und verwende diese innerhalb eines Loops.
+
