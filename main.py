@@ -312,6 +312,7 @@ def think(value, duration=2):
     The message is centered on the screen.
     """
     GAME_STATE['think_message'] = (value, time.time() + duration)
+    print(f'[GAME] {value}')
     time.sleep(duration)
 
 
